@@ -50,6 +50,7 @@ html{
   /* background: #161623; */
   /* overflow-y: hidden; */
   box-sizing: border-box;
+  overflow: hidden;
 
 }
 
@@ -58,9 +59,7 @@ body, .container2{
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
- height: 100vh;
-  /* background-color: silver; */
- 
+  height: 98vh; 
 }
 
 
