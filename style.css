@@ -69,7 +69,7 @@ section{
 
   overflow: hidden;
   scroll-snap-align: start;
-  height: 98vh;
+  height: calc(100% - 100px);
   width: 100vw;
   position: relative;
   z-index: 20;
