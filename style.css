@@ -68,8 +68,8 @@ body, .container2{
 section{
   height: calc(100% - 10px);
   width: 100vw;
-  position: relative;
-  z-index: 20;
+  /* position: relative; */
+  z-index: 100;
   overflow: auto;
 }
 .two img{
@@ -92,7 +92,7 @@ body::before{
   background: linear-gradient(darkblue, red);
   clip-path: circle(30% at right 80%);
   position: fixed;
-  
+  z-index: -3;
 }
 
 
@@ -108,6 +108,7 @@ body::after{
   ,purple );
   clip-path: circle(30% at 10% 20%);
   position: fixed;
+  z-index: -3;
 }
 
 .container{
