@@ -60,7 +60,7 @@ body, .container2{
   align-items: center;
   flex-wrap: wrap;
   height: 98vh;
-  overflow: hidden;
+  overflow: auto;
 }
 
 
