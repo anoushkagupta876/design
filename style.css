@@ -65,7 +65,7 @@ body, .container2{
 
 
 section{
-  height: 100vh;
+  height: calc(100% - 10px);
   width: 100vw;
   position: relative;
   z-index: 20;
