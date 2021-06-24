@@ -59,18 +59,13 @@ body, .container2{
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  height: 98vh; 
+  height: 100vh; 
 }
 
-
-body{
-  scroll-snap-type: y mandatory;
-
-}
 
 section{
   scroll-snap-align: start;
-  height: 100vh;
+  height: 98vh;
   width: 100vw;
   position: relative;
   z-index: 20;
