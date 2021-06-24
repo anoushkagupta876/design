@@ -48,10 +48,8 @@ table {
 html{
   background-color: black;
   /* background: #161623; */
-  /* overflow-y: hidden; */
+  overflow-y: hidden;
   box-sizing: border-box;
-  overflow: hidden;
-
 }
 
 body, .container2{
@@ -60,10 +58,13 @@ body, .container2{
   align-items: center;
   flex-wrap: wrap;
   height: 100vh; 
+  overflow-y: hidden;
 }
 
 
 section{
+
+  overflow: hidden;
   scroll-snap-align: start;
   height: 98vh;
   width: 100vw;
