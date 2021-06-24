@@ -46,10 +46,11 @@ table {
 
 
 html{
-  background-color: black;
+  background-color: grey;
   /* background: #161623; */
-  overflow-y: hidden;
+ 
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 body, .container2{
@@ -58,7 +59,9 @@ body, .container2{
   align-items: center;
   flex-wrap: wrap;
   height: 100vh; 
-  overflow-y: hidden;
+  overflow: hidden;
+  background-color: yellowgreen;
+
 }
 
 
