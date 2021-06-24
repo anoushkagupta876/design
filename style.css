@@ -50,7 +50,7 @@ html{
   /* background: #161623; */
   overflow: hidden;
   box-sizing: border-box;
-  position: relative;
+  
 }
 
 body, .container2{
@@ -59,8 +59,9 @@ body, .container2{
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  height: 98vh;
-  overflow: auto;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
 }
 
 
